@@ -3,7 +3,7 @@ This code computes the detour factor for public transport and cars and motorbike
 
 Chalasani, V. Saikumar, O. Engebretsen, et K. W. Axhausen. <a href="https://www.bts.gov/archive/publications/journal_of_transportation_and_statistics/volume_08_number_02/paper_01/index">Precision of Geocoded Locations and Network Distance Estimates</a>. Journal of Transportation and Statistics 8, nᵒ 2 (2005): 15.
 
-This code uses data from the Mobility and Transport Microcensus (<a href="https://www.are.admin.ch/mtmc">MTMC</a>) 2010 and 2015. The results are available as CSV-files. They have also been published on Twitter in <a href="https://twitter.com/AntoninDanalet/status/1117688900791734273">English</a>, <a href="https://twitter.com/AntoninDanalet/status/1117815752348901376">French</a> and <a href="https://twitter.com/AntoninDanalet/status/1117870640097263616">German</a> and on <a href="https://www.linkedin.com/feed/update/urn:li:activity:6523651024845099008">LinkedIn</a>.
+This code uses data from the Mobility and Transport Microcensus (<a href="https://www.are.admin.ch/mtmc">MTMC</a>) 2010 and 2015. The results are available as CSV-files.
 
 ## Results 
 
@@ -18,9 +18,9 @@ Correction factor for public transport (weighted average): 1.34
 Correction factor for bikes (weighted average; careful: not based on routed distances, but on distances estimated by the respondent): 1.70
 
 Correction factor by transport mode and distance categories (weighted average, median & 10th percentile), see CSV-files:
-- <a href="https://github.com/antonindanalet/detourfactor/blob/master/mtmc2010/data/results/detour_factor_weighted_avg.csv">detour_factor_weighted_avg.csv</a>
-- <a href="https://github.com/antonindanalet/detourfactor/blob/master/mtmc2010/data/results/detour_factor_median.csv">detour_factor_median.csv</a>
-- <a href="https://github.com/antonindanalet/detourfactor/blob/master/mtmc2010/data/results/detour_factor_10thpercentile.csv">detour_factor_10thpercentile.csv</a>
+- <a href="https://github.com/AREschweiz/detourfactor/blob/master/mtmc2010/data/results/detour_factor_weighted_avg.csv">detour_factor_weighted_avg.csv</a>
+- <a href="https://github.com/AREschweiz/detourfactor/blob/master/mtmc2010/data/results/detour_factor_median.csv">detour_factor_median.csv</a>
+- <a href="https://github.com/AREschweiz/detourfactor/blob/master/mtmc2010/data/results/detour_factor_10thpercentile.csv">detour_factor_10thpercentile.csv</a>
 
 ### Results 2015
 
@@ -35,9 +35,9 @@ Correction factor for bikes (weighted average; careful: not based on routed dist
 Correction factor for walking (weighted average; careful: not based on routed distances, but on distances estimated by the respondent): 1.53
 
 Correction factor by transport mode and distance categories (weighted average, median & 10th percentile), see CSV-files:
-- <a href="https://github.com/antonindanalet/detourfactor/blob/master/mtmc2015/data/results/detour_factor_weighted_avg.csv">detour_factor_weighted_avg.csv</a>
-- <a href="https://github.com/antonindanalet/detourfactor/blob/master/mtmc2015/data/results/detour_factor_median.csv">detour_factor_median.csv</a>
-- <a href="https://github.com/antonindanalet/detourfactor/blob/master/mtmc2015/data/results/detour_factor_10thpercentile.csv">detour_factor_10thpercentile.csv</a>
+- <a href="https://github.com/AREschweiz/detourfactor/blob/master/mtmc2015/data/results/detour_factor_weighted_avg.csv">detour_factor_weighted_avg.csv</a>
+- <a href="https://github.com/AREschweiz/detourfactor/blob/master/mtmc2015/data/results/detour_factor_median.csv">detour_factor_median.csv</a>
+- <a href="https://github.com/AREschweiz/detourfactor/blob/master/mtmc2015/data/results/detour_factor_10thpercentile.csv">detour_factor_10thpercentile.csv</a>
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ For it to produce the results, you also need the raw data of the Transport and M
 
 ### Run the code
 
-Please copy the files <em>etappen.csv</em> from 2010 and <em>etappen.csv</em> from 2015 that you receive from the Swiss Federal Statistical Office (FSO) in the folders "<a href="https://github.com/antonindanalet/detourfactor/tree/master/mtmc2010/data/source">mtmc2010/data/source</a>" and "<a href="https://github.com/antonindanalet/detourfactor/tree/master/mtmc2015/data/source">mtmc2015/data/source</a>" respectively. Then run <a href="https://github.com/antonindanalet/detourfactor/blob/master/run_detourfactor.py">run_detourfactor.py</a>. 
+Please copy the files <em>etappen.csv</em> from 2010 and <em>etappen.csv</em> from 2015 that you receive from the Swiss Federal Statistical Office (FSO) in the folders "<a href="https://github.com/AREschweiz/detourfactor/tree/master/mtmc2010/data/source">mtmc2010/data/source</a>" and "<a href="https://github.com/AREschweiz/detourfactor/tree/master/mtmc2015/data/source">mtmc2015/data/source</a>" respectively. Then run <a href="https://github.com/AREschweiz/detourfactor/blob/master/run_detourfactor.py">run_detourfactor.py</a>. 
 
 DO NOT commit or share in any way these two CSV-files! These are personal data.
 
